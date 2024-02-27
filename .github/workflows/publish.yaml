@@ -2,8 +2,10 @@
 # you can run this workflow by navigating to https://www.github.com/openai/openai-node/actions/workflows/publish-npm.yml
 name: Publish NPM
 on:
-  workflow_dispatch:
-
+  workflow_dispatch: {}
+  push:
+    tags:
+      - '**'
 jobs:
   publish:
     name: publish
