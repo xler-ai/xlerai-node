@@ -1,0 +1,17 @@
+{
+  "name": "xlerai",
+  "version": "4.28.3",
+  "main": "src/index.ts",
+  "author": "xler-ai <keegan@xler.ai>",
+  "license": "MIT",
+  "devDependencies": {
+    "tsup": "^8.0.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "openai": "4.28.3"
+  },
+  "scripts": {
+    "build": "tsup src/index.ts"
+  }
+}
